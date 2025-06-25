@@ -87,17 +87,18 @@ function App() {
           onClick={goLeft}
           className="px-4 py-2 bg-blue-200 rounded hover:bg-blue-300"
         >
-          ⬅ Prev
+        previous
         </button>
-
-        <h1 className="text-2xl font-bold">{currentProject.name}</h1>
 
         <button
           onClick={goRight}
           className="px-4 py-2 bg-blue-200 rounded hover:bg-blue-300"
         >
-          Next ➡
+        next
         </button>
+
+        <h1 className="text-2xl font-bold">{currentProject.name}</h1>
+
       </div>
 
       {/* Project and Tasks */}
